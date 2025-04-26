@@ -17,18 +17,18 @@ if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝗔𝗟𝗣𝗛𝗔 ⚡️ **\n\n"
+        f"** ⚡️ 𝗜𝗦𝗧𝗞𝗛𝗔𝗥 ⚡️ **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [˹ 𝐒ᴡᴍ-𝐂ʜᴀᴛ ™˼](https://t.me/+Oh7OmMhAPKY5YTc9)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [˹ 𝐓ᴇᴀᴍ 𝐏ᴜʀᴠɪ ™˼](t.me/PURVI_SUPPORT)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [˹ 𝐀ʟᴘʜᴀ 𝐁ᴀʙʏ ™˼](t.me/ll_ALPHA_BABY_lll)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [˹ 𝐒ᴡᴍ-𝐂ʜᴀᴛ ™˼](https://t.me/+PaEtaAu9DI9mYzc9)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [˹ 𝐓ᴇᴀᴍ 𝐓ʜᴜɴᴅᴇʀ ™˼](t.me/THUNDERDEVS)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [˹ 𝐈sᴛᴋʜᴀʀ 𝐁ᴀʙʏ ™˼](t.me/ll_ISTKHAR_BABY_lll)"        
     )
 
 @Client.on_message(
-    filters.command(["alive", "shivop"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["alive", "istkhar"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
     xx = await message.reply_text("⚡️")
@@ -57,12 +57,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/TEAMPURVI/ALPHA_USERBOT\nFork & Give an ⭐")
+    await message.edit("Here is repo: \n\n\nhttps://github.com/TEAM-ISTKHAR/ISTKHAR_USERBOT\nFork & Give an ⭐")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/TEAMPURVI")
+    await message.edit("https://gitHub.com/TEAM-ISTKHAR")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
