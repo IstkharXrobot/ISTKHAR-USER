@@ -9,10 +9,10 @@ from pyrogram.types import *
 from pyrogram.types import Message
 
 
-from ISTKHAR.helper.basic import edit_or_reply, get_text
-from ISTKHAR.helper.constants import MEMES
+from RAUSHAN.helper.basic import edit_or_reply, get_text
+from RAUSHAN.helper.constants import MEMES
 
-from ISTKHAR.plugins.help import *
+from RAUSHAN.plugins.help import *
 
 DEFAULTUSER = "Man"
 
