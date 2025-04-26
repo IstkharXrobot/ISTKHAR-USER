@@ -16,12 +16,12 @@ PHONE_NUMBER_TEXT = (
 async def hello(client: app, message):
     buttons = [
            [
-                InlineKeyboardButton("˹ 𝐎ᴡɴᴇʀ ˼", url="https://t.me/ll_ALPHA_BABY_lll"),
-                InlineKeyboardButton("˹ 𝐔ᴘᴅᴀᴛᴇ ˼", url="https://t.me/PURVI_SUPPORT"),
+                InlineKeyboardButton("˹ 𝐎ᴡɴᴇʀ ˼", url="https://t.me/ll_ISTKHAR_BABY_lll"),
+                InlineKeyboardButton("˹ 𝐔ᴘᴅᴀᴛᴇ ˼", url="https://t.me/THUNDERDEVS"),
             ],
             [
-                InlineKeyboardButton("˹ 𝐒ᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/+gMy8Cp190ediNzZl"),
-                InlineKeyboardButton("˹ 𝐌ᴜsɪᴄ ˼", url="https://t.me/SONALI_MUSIC_BOT"),
+                InlineKeyboardButton("˹ 𝐒ᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/+PaEtaAu9DI9mYzc9"),
+                InlineKeyboardButton("˹ 𝐌ᴜsɪᴄ ˼", url="https://t.me/AvishaXRobot"),
             ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -34,11 +34,11 @@ async def clone(bot: app, msg: Message):
     cmd = msg.command
     phone = msg.command[1]
     try:
-        await text.edit("**ʀᴜᴋ ᴛʜᴏᴅᴀ sᴀ ᴀʟᴘʜᴀ ᴛᴇʀɪ ɢᴀɴᴅ ᴍᴀʀ ʀʜᴀ 👅.....✲**")
+        await text.edit("**ʀᴜᴋ ᴛʜᴏᴅᴀ sᴀ ɪsᴛᴋʜᴀʀ ᴛᴇʀɪ ɢᴀɴᴅ ᴍᴀʀ ʀʜᴀ 👅.....✲**")
                    # change this Directry according to ur repo
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="RAUSHAN/plugins"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f" **ᴊᴀ ᴘᴇʟ sᴀʙᴋᴏ ᴏʀ ʜᴀᴀ ᴀʟᴘʜᴀ ᴋᴏ ᴘᴀᴘᴀ ʙᴏʟ ᴋᴇ ᴊᴀɴᴀ** 🥵 {user.first_name} 💨.")
+        await msg.reply(f" **ᴊᴀ ᴘᴇʟ sᴀʙᴋᴏ ᴏʀ ʜᴀᴀ ᴛʜᴜɴᴅᴇʀ ᴋᴏ ᴘᴀᴘᴀ ʙᴏʟ ᴋᴇ ᴊᴀɴᴀ** 🥵 {user.first_name} 💨.")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
